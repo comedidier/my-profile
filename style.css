@@ -1,0 +1,99 @@
+/* Colors and fonts */
+body{
+  background: #2D3136;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 18;
+}
+
+h1 { color: #684B2D;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 { color: #C69E76;
+   font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #89370C;
+}
+
+a:hover {
+
+  font-weight: bolder;
+}
+
+#image {
+  border-radius: 50%;
+}
+
+
+div{
+  color: #89370C;
+  margin: 0 auto;
+}
+
+
+/* Custom design with class */
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-cream{
+  background-color: #e6cfb6;
+  padding: 5px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 50px;
+}
+
+#social-networks a{
+  margin-inline: 30px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
